@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+/*
+Popcount test code
+*/
 // func main() {
 // 	input := bufio.NewScanner(os.Stdin)
 // 	for input.Scan() {
@@ -16,6 +19,9 @@ import (
 // 	}
 // }
 
+/*
+test for pc init and byte caculation
+*/
 var pc [256]byte
 
 func init() {
