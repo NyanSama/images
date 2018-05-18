@@ -45,7 +45,7 @@ func PopCountByShifting(x uint64) int {
 
 func BenchmarkPopCount(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		popcount.PopCount(0x1234567890ABCDEF)
+		popcount.PopCount0(0x1234567890ABCDEF)
 	}
 }
 
