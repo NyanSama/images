@@ -32,8 +32,7 @@ func PopCount(x uint64) int {
 //PopCount0 for exercise 2.5
 func PopCount0(x uint64) int {
 	var result int
-	var i uint
-	for i = 0; i < 8; i++ {
+	for i := uint(0); i < 8; i++ {
 		result += int(pc[byte(x>>(i*8))])
 	}
 	return result
