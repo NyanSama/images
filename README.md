@@ -1,1 +1,1 @@
-## images for all blog
+## Just for go practice
